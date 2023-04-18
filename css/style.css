@@ -10,7 +10,7 @@ body {
 body {
     font-family: 'Roboto', sans-serif;
     color: white;
-    background-color: black;
+    background-color: #1C1C1C;
 }
 
 ul {
@@ -141,7 +141,7 @@ h6 {
 }
 
 .food {
-    padding: 115px 0px 102px;
+    padding: 174px 0px 102px;
 }
 
 .food__list {
@@ -188,6 +188,62 @@ h6 {
     font-size: 16px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.7);
+}
+
+.main {
+    background-color: #312F30;
+    height: 493px;
+}
+.main__food {
+    display: flex;
+}
+.main__food_img-wrap {
+    padding: 0px 102px;
+}
+.main__food-img {
+    width: 549px;
+    height: 499px;
+    object-fit: contain;
+}
+.main__content{
+    padding: 120px 320px 0px 0px;
+}
+
+.main__title {
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    margin-bottom: 24px;
+}
+
+.main__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.price__main {
+    color: #F6762C;
+    font-weight: 500;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: 0.1em;
+}
+.price__main-old {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: rgba(246,118,44,0.5);
 }
 
 .donload {
