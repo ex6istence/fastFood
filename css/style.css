@@ -246,6 +246,40 @@ letter-spacing: 0.1em;
     color: rgba(246,118,44,0.5);
 }
 
+.restaurants {
+}
+.restaurants__list {
+    display: block;
+    float: none;
+    line-height: 28px;
+    position: static;
+}
+.restaurant__item {
+    display: inline-block;
+    float: none;
+    line-height: 28px;
+    position: relative;
+}
+.restaurant__img {
+    width: 604px;
+    height: 445px;
+    left: 181px;
+    top: 2086px;
+}
+.restaurants__title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 20px 37px;
+    background: transparent;
+}
+.restaurants__text {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    padding: 20px 20px 37px;
+    background: transparent;
+}
 .donload {
     padding-left: 900px;
 }
